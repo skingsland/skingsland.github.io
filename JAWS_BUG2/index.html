@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Jaws bug</title>
+    <meta name="subject" content="Jaws bug">
+
+</head>
+<body>
+    Some header text...
+    <table role="img" aria-label="Testing 1" aria-disabled="true">
+        <tr>
+            <td  aria-hidden="true" aria-disabled="true">
+                <table role="presentation" aria-hidden="true" aria-disabled="true">
+                    <tr>
+                        <td aria-hidden="true" aria-disabled="true">smiley text</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td aria-hidden="true" aria-disabled="true">
+                <table role="presentation" aria-hidden="true" aria-disabled="true">
+                    <tr>
+                        <td aria-hidden="true" aria-disabled="true">smiley text</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    Some footer text...
+</body>
+</html>
